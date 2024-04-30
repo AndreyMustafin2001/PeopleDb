@@ -48,5 +48,24 @@ Before you can run Name Manager, ensure your system meets the following requirem
 ### Clone the Repository
 
 Start by cloning the repository to get the source code on your local machine.
+## Important Configuration Note
 
+When setting up and running the Name Manager on your local machine, you may need to update the database path to ensure the application functions correctly. The current implementation uses an absolute path to locate the people.db file, which might not correctly correspond to your filesystem structure.
+
+### How to Update the Database Path
+
+1. Locate the File: Open the graphic.cpp file located in your project directory.
+2. Find the Database Path: Search for the line where people.db is defined. This will typically be at the top of the file.
+3. Modify the Path: Replace the existing path with the absolute path to people.db on your system. For example:
+   ```cpp
+   // Before
+   QString dbPath = "D:/Work/Qtcreator/dbmanager/people.db";
+
+   // After
+   QString dbPath = "C:/Users/[YourUsername]/path/to/people.db";
+Replace YourActualUsername and your/actual/path/to with the actual path where you have stored the database file on your machine.
+
+4.Save and Rebuild:
+After updating the path, save the changes in graphic.cpp, and recompile the application as previously described in the building instructions.
+By ensuring the database path is correctly set, you help guarantee that the application will run smoothly on your environment, managing the name data effectively.
 
