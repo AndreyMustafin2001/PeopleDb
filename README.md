@@ -17,7 +17,7 @@ Explore the functionality of Name Manager through these GIFs that showcase the a
 ![Add Name](gifs/add.gif)  
 *Adding a name*
 
-![Remove Name](path/to/remove_name.gif)  
+![Remove Name](gifs/remove.gif)  
 *Removing a name*
 
 ![Check Existence](path/to/existence_check.gif)  
