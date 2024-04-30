@@ -35,5 +35,18 @@ We welcome contributions! Whether you have suggestions for improvements, bug rep
 3. Commit your Changes (git commit -m 'Add some AmazingFeature')
 4. Push to the Branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
+## Installation
+
+### Prerequisites
+
+Before you can run Name Manager, ensure your system meets the following requirements:
+
+- Qt 6.x: Make sure Qt 6.x is installed on your system for GUI support and framework integration.
+- C++11 or later: Your compiler must support at least C++11.
+- SQLite 3: As the application uses SQLite for database management, SQLite 3 must be installed.
+
+### Clone the Repository
+
+Start by cloning the repository to get the source code on your local machine.
 
 
