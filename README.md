@@ -67,11 +67,14 @@ When setting up and running the Name Manager on your local machine, you may need
    // After
    QString dbPath = "C:/Users/[YourUsername]/path/to/people.db";
 Replace YourActualUsername and your/actual/path/to with the actual path where you have stored the database file on your machine.
-Also you should change dbmanager.pro
+   
+   Also you should change dbmanager.pro
+   ```cpp
    //Before
-   INCLUDEPATH += D:/SQLite3
+      INCLUDEPATH += D:/SQLite3;
    //After
-   INCLUDEPATH += C:/"The name of the directory where the installed SQLite3 library is located"
+      INCLUDEPATH += C:/"The name of the directory where the installed SQLite3 library is located";
+
 4.Save and Rebuild:
 After updating the path, save the changes in graphic.cpp, and recompile the application as previously described in the building instructions.
 By ensuring the database path is correctly set, you help guarantee that the application will run smoothly on your environment, managing the name data effectively.
