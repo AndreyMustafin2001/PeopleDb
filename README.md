@@ -20,6 +20,9 @@ Explore the functionality of Name Manager through these GIFs that showcase the a
 ![Remove Name](gifs/remove.gif)  
 *Removing a name*
 
+![Remove All Names](gifs/removeall.gif)  
+*Removing all names*
+
 ![Check Existence](gifs/exist.gif)  
 *Checking if a name exists*
 
